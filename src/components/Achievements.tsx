@@ -7,7 +7,7 @@ const AchievementSection = () => {
   const inView = useInView(ref, { once: true, amount: 0.2 });
 
   return (
-    <section className="relative section-padding overflow-hidden" ref={ref}>
+    <section id="achievements" className="relative section-padding overflow-hidden" ref={ref}>
       
       {/* Background Glow */}
       <div className="absolute -top-20 left-1/2 -translate-x-1/2 w-[500px] h-60 
@@ -41,7 +41,7 @@ const AchievementSection = () => {
             </div>
 
             <h3 className="text-2xl font-bold mb-3 text-foreground">
-              Smart India Hackathon (SIH)
+              Smart India Hackathon (SIH 2025)
             </h3>
 
             <p className="text-muted-foreground max-w-2xl mx-auto leading-relaxed">
