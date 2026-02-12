@@ -8,6 +8,8 @@ import EducationSection from "@/components/EducationSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 import CursorGlow from "@/components/CursorGlow";
+import AchievementSection from "@/components/Achievements";
+
 
 const Index = () => {
   return (
@@ -18,6 +20,7 @@ const Index = () => {
       <AboutSection />
       <SkillsSection />
       <ProjectsSection />
+      <AchievementSection/>
       <CodingProfilesSection />
       <EducationSection />
       <ContactSection />
