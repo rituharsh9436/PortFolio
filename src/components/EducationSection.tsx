@@ -7,7 +7,7 @@ const education = [
     degree: "B.Tech in Computer Science",
     institution: "KIET Group of Institutions, AKTU",
     year: "2023 – 2027",
-    score: "CGPA: In Continuation",
+    score: "CGPA: 7.94 (until IV Semester)",
   },
   {
     degree: "Class XII (CBSE)",
