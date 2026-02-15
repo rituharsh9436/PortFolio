@@ -98,7 +98,7 @@ const Navbar = () => {
         {/* Resume + Mobile Toggle */}
         <div className="flex items-center gap-3">
           <a
-            href="https://drive.google.com/file/d/1qfp1WS_WhiaErsp7IRCeH3WeDHt0Vtah/view?usp=sharing"
+            href="https://drive.google.com/file/d/1nTQvOHgtz2KF9IH0TNnCs4K28u_CQwBD/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
             className="hidden md:inline-flex items-center gap-2 text-sm font-medium 
