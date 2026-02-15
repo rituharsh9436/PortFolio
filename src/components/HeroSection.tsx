@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { ArrowDown, FileText, Mail } from "lucide-react";
+import profileImg from "../assets/profile.jpeg";
 
 const handleSmoothScroll = (
   e: React.MouseEvent<HTMLAnchorElement>,
@@ -119,11 +120,13 @@ const HeroSection = () => {
 
             {/* Image */}
             <img
-              src="/profile.jpg"
-              alt="Harsh Bhardwaj"
-              className="relative w-64 h-64 md:w-80 md:h-80 object-cover 
-              rounded-full border-4 border-background shadow-2xl"
+            src={profileImg}
+            alt="Harsh Bhardwaj"
+            className="relative w-64 md:w-80 aspect-[3/4] object-cover object-center
+            rounded-full border-4 border-background shadow-2xl"
             />
+
+
           </div>
         </motion.div>
       </div>
