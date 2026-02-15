@@ -4,7 +4,7 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const technicalSkills = [
   { category: "Programming", items: ["Python", "C/C++", "SQL", "Java", "Php"] },
-  { category: "ML & Data", items: ["TensorFlow", "XGBoost", "Pandas", "NumPy", "Yolo", "matplotlib", "OpenCV"] },
+  { category: "ML & Data", items: ["TensorFlow", "Shape","Lime","Transformers","XGBoost", "Pandas", "NumPy", "Yolo", "matplotlib", "OpenCV"] },
   { category: "Web & Frameworks", items: ["React JS", "FastAPI", "HTML/CSS/JS"] },
   { category: "Tools", items: ["Git", "Jupyter", "VS Code", "Tableau"] },
 ];
